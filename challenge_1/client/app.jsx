@@ -4,6 +4,9 @@ import Search from './search.jsx'
 class App extends React.Component {
   constructor(props) {
     super(props)
+    this.state={
+      events: {}
+    }
   }
 
 
